@@ -2,3 +2,8 @@
   for = "/*"
   [headers.values]
     Content-Security-Policy = "frame-ancestors 'self' https://*.ibm.com https://ibm.com https://research.ibm.com https://d1bqvdqmynqyrb.cloudfront.net;"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
